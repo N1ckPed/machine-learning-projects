@@ -48,5 +48,5 @@ This project is based on a practical mini-project from the [Complete Machine Lea
 
 ---
 ## 📌 Notes
-<⚠️ This is a learning project based on an online course. It's shared for reference and educational purposes only.
+>⚠️ This is a learning project based on an online course. It's shared for reference and educational purposes only.
 
