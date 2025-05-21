@@ -1,31 +1,52 @@
-# Heart Disease Prediction
+# End-to-End Heart Disease Classification
 
-This project is part of the [Complete Machine Learning and Data Science: Zero to Mastery](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/) course. It involves building a machine learning model to predict the presence of heart disease in patients based on various health metrics.
+This project is based on a practical mini-project from the [Complete Machine Learning and Data Science: Zero to Mastery](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/) course. It walks through a full machine learning workflow to predict heart disease based on patient health data.
+
+---
+
+## 📁 Notebook
+
+- **File**: `end-to-end-heart-disease-classification.ipynb`
+- 📌 Jupyter Notebook that covers:
+  - Data exploration & visualization
+  - Feature engineering & preprocessing
+  - Model training & evaluation
+  - Confusion matrix, ROC curve, and classification metrics
+
+---
 
 ## 📊 Dataset
 
 - **Source**: [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
-- **Features**: Age, Sex, Chest Pain Type, Resting Blood Pressure, Cholesterol, etc.
+- **Target**: Presence of heart disease (`1` = Yes, `0` = No)
+- **Features**:  
+  `age`, `sex`, `cp`, `trestbps`, `chol`, `fbs`, `restecg`, `thalach`, `exang`, `oldpeak`, `slope`, `ca`, `thal`
 
-## 🧠 Methodology
+---
 
-- **Data Preprocessing**: Handling missing values, encoding categorical variables, feature scaling.
-- **Modeling**: Implemented Logistic Regression, Decision Trees, and Random Forest classifiers.
-- **Evaluation**: Used accuracy, precision, recall, and ROC-AUC score to assess model performance.
+## 🧠 ML Workflow
 
-## 📈 Results
+- **Data Loading & Cleaning**
+- **Exploratory Data Analysis (EDA)**
+- **Train-Test Split**
+- **Model Selection**
+  - KNN
+  - Logistic Regression
+  - Random Forest
+- **Evaluation Metrics**
+  - Accuracy, Precision, Recall, F1-Score
+  - Confusion Matrix
+  - ROC Curve
 
-- **Best Model**: Random Forest Classifier
-- **Accuracy**: 85%
-- **ROC-AUC Score**: 0.88
+---
 
-## 🚀 Future Improvements
+## 🚀 Results
 
-- Implement cross-validation for more robust evaluation.
-- Explore advanced models like Gradient Boosting Machines.
-- Deploy the model using a web framework for real-time predictions.
+- **Best Model**: Logistic Regression
+- **ROC AUC**: 93%
+- **Accuracy**: 88,5%
 
-## 🧑‍💻 Author
-
-[N1ckPed](https://github.com/N1ckPed)
+---
+## 📌 Notes
+<⚠️ This is a learning project based on an online course. It's shared for reference and educational purposes only.
 
