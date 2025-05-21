@@ -27,5 +27,5 @@ This project is part of the [Complete Machine Learning and Data Science: Zero to
 
 ## 🧑‍💻 Author
 
-[N1ckPed](https://github.com/yourusername)
+[N1ckPed](https://github.com/N1ckPed)
 
