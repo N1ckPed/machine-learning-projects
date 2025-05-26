@@ -5,3 +5,4 @@ This repository contains mini projects, experiments, and case studies using vari
 ## Projects
 
 - [Heart Disease Prediction](./heart-disease-prediction)
+- [Bulldozer Price Prediction](./bulldozer-price-prediction)
